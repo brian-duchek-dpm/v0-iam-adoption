@@ -111,6 +111,11 @@
   color: var(--rail-icon-active);
 }
 
+/* Home row keeps the standard inactive icon color even when selected */
+.rowMain[data-item-id='home'] .icon {
+  color: var(--rail-icon);
+}
+
 .label {
   overflow: hidden;
   text-overflow: ellipsis;
