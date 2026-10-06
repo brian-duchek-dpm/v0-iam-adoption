@@ -12,7 +12,7 @@
   --rail-text: #ffffff;
   --rail-text-muted: #a8a8b8;
   --rail-icon: #a8a8b8;
-  --rail-icon-active: #4c2cff;
+  --rail-icon-active: var(--ink-bg-default);
 
   position: relative;
   flex-shrink: 0;
